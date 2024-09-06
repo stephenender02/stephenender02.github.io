@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stephen Ender</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" type="image/png" href="img/nihory-fav.png" /> -->
+
+    <!------------------ External CSS ------------------>
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------ Box Icons ------------------>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    TEST
+    <!------------------------ Header starts from here ----------------------->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Stephen Ender</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__link"> About </a></li>
+                    <li class="nav__item"> <a href="#education" class="nav__link"> Education </a></li>
+                    <li class="nav__item"> <a href="#experience" class="nav__link"> Experience </a></li>
+                    <li class="nav__item"> <a href="#projects" class="nav__link"> Projects </a></li>
+                    <li class="nav__item"> <a href="#leadership" class="nav__link"> Leadership and Community Involvement </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!------------------------ Header ends from here ----------------------->
+
+    <!------------------------ Body starts from here ----------------------->
+    <main class="l-main">
+        <!------------------- Home ------------------->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="images/stephenPicture.png" alt="Stephen Ender" title="Stephen Ender">
+                    </div>
+
+                    <h1 class="home__title" style="color: #6f9f0d;">Stephen Ender</h1>
+                    <span class="home__profession">Cybersecurity and Software Development</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/stephen-ender/" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/stephenender02" class="home__social-link"><i class='bx bxl-github'></i></a>
+                    </div>
+                    <a href="files/StephenEnderResumeGeneral.pdf" download class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- About ---------------------------->
+        <section class="about section" id="about">
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi, I'm Stephen! I'm a senior at James Madison University, and I study Computer Science. I am particularly interested in the field of cybersecurity and enjoy writing computer programs. When I'm not at the keyboard, I enjoy playing the saxophone and the guitar, watching the Dukes play football and basketball, and trying to cook new recipies in the kitchen!
+                    </p>
+                    <!-- <img src="images/photo-1522529599102-193c0d76b5b6.jpeg" alt="Stephen Ender" title="Stephen Ender" class="about__img"> -->
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">My Information</h3>
+
+                        <div class="about__information-data">
+                            <i class='bx bxs-user about__information-icon'></i>
+                            <span>Stephen Ender</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bxs-phone about__information-icon'></i>
+                            <span>484-894-3336</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bxs-envelope about__information-icon'></i>
+                            <span>stephenender02@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="about__information">
+                        <h3 class="about__information-title">Put Something Here</h3>
+
+                        <div class="about__information-data">
+                            <i class='bx bxs-medal about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Not sure</span>
+                                <span class="about__information-subtitle-small">Not sure</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bxs-briefcase about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Not sure</span>
+                                <span class="about__information-subtitle-small">Not sure</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-support about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Not sure</span>
+                                <span class="about__information-subtitle-small">Not sure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!--------------------------------- Education ------------------------------->
+        <section class="education section" id="education">
+            <h2 class="section-title">My Education</h2>
+            <span class="section-subtitle">Where I learned how to learn</span>
+            
+            </div>
+        </section>
+
+        <!---------------------------- Experience ---------------------------->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">My Experience</h2>
+            <span class="section-subtitle">Where I learned how to work</span>
+        </section>
+
+        <!------------------------------- Projects ------------------------------>
+        <section class="projects section" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <span class="section-subtitle">Cool things I've built</span>
+
+        </section>
+
+        <!---------------------------------- Leadership --------------------------->
+        <section class="leadership section" id="leadership">
+            <h2 class="section-title">Leadership and Community Involvement</h2>
+            <span class="section-subtitle">Where you can find me</span>
+
+        </section>
+
+        <!----------------------------------- Contact ------------------------------>
+        <!-- <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="#" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input">
+                    <textarea placeholder="Message" name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call Me</h3>
+                        <span class="contact__text">+91 9845 657812</span>
+                        <span class="contact__text">+91 8746 657845</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">nihory@gmail.com</span>
+                        <span class="contact__text">me@nihory.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Cion, Mumbai</span>
+                        <span class="contact__text">Maharashtra, In</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+    <!------------------------ Body ends from here ----------------------->
+
+    <!------------------------ Footer starts from here ----------------------->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Stephen Ender</h1>
+            <p class="footer-description">
+                Still need to figure out what to put here :)
+            </p>
+        </div>
+    </footer>
+    <!------------------------ Footer ends from here ----------------------->
+
+    <!------------------------- Javascript file ---------------------------->
+    <script src="script.js"></script>
 </body>
+
 </html>
