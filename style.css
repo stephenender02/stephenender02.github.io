@@ -18,7 +18,7 @@
     --first-color-dark: #1b2f4d;
     --first-color-darken: #1b2f4de7;
     --text-color: #2f4156;
-    --first-color-light: #d03907;
+    --first-color-light: #bddee9;
     --first-color-light-dark: #bddee9;
     --first-color-lighten: #e8f9ff;
 
@@ -777,6 +777,46 @@ img
     font-size: var(--smaller-font-size);
     color: var(--text-color);
 }
+
+
+/* --------- Stephen Style -------------- */
+.project-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saferides_project_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.pma_ga_website_box
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.jmuvies_box
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
 
 /* ------------------------- Media Queries for tablet screen ---------------------------- */
 @media screen and (min-width: 786px)

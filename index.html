@@ -91,11 +91,6 @@
                         </div>
 
                         <div class="about__information-data">
-                            <i class='bx bxs-phone about__information-icon'></i>
-                            <span>484-894-3336</span>
-                        </div>
-
-                        <div class="about__information-data">
                             <i class='bx bxs-envelope about__information-icon'></i>
                             <span>stephenender02@gmail.com</span>
                         </div>
@@ -149,7 +144,50 @@
         <!------------------------------- Projects ------------------------------>
         <section class="projects section" id="projects">
             <h2 class="section-title">My Projects</h2>
-            <span class="section-subtitle">Cool things I've built</span>
+            <div class="project-box">
+
+                <div class="saferides_project_box">
+                    <h2>Saferides Application Project</h2>
+                    <img src="images/backend.png" alt="" width="500rem">
+                    <br>
+                    <p>Founded in 2003, SafeRides is an entirely student-run FEB organization that offers free and safe rides home to JMU students on Friday and Saturday nights from 10PM-3AM.</p>
+                    <br>
+                    <p>The goal for this project is to design, implement, test, and maintain an application for the Phone Operators, Log Operators and Navigators who run SafeRides to manage the ride requests and status of all the driver teams on a night of operations.</p>
+                    <br>
+                    <p>In this project, I aim to primarily develop the back-end of the application. Key components include:</p>
+                    <ol>
+                        <li>Setup and administration of a relational SQL database to store ride and driver team information</li>
+                        <li>Design of the database tables and relationships</li>
+                        <li>Development of the code that retrieves pertinent information from and updates information in the database</li>
+                    </ol>
+                </div>
+
+                <div class="pma_ga_website_box">
+                    <h2>Phi Mu Alpha Website</h2>
+                    <img src="images/pma_website.png" alt="" width="500rem">
+                    <br>
+                    <p>Founded in 1969, the Gamma Alpha Chapter of Phi Mu Alpha Sinfonia is a national music fraternity whose object is the development of the best and truest fraternal spirit; the mutual welfare and brotherhood of musical students; the advancement of music in America and a loyalty to the Alma Mater.</p>
+                    <br>
+                    <p>I am currently working on the development of a website for the Gamma Alpha Chapter of Phi Mu Alpha Sinfonia. This website will provide general information about the fraternity, pictures from latest events, and a directory of current collegiate members of the Gamma Alpha Chapter.</p>
+                    <br>
+                    <p>In this project, I am developing the front-end of the website. Since this is a simple website project, there is no database being used, though I am currently storing brother directory information in a Google Sheet where up to date information is fetched.</p>
+                </div>
+
+                <div class="jmuvies_box">
+                    <h2>JM'Uvies</h2>
+                    <img src="images/jmuvies.png" alt="" width="500rem">
+                    <br>
+                    <p>As a part of the Software Engineering class I took at JMU, my team and I were tasked to create a movie review based social media network. Using HTML, CSS, and the p5.js JavaScript library, our team created this social media network over 6 weeks using the SCRUM framework.</p>
+                    <br>
+                    <p>In the development of this project, I primarily worked on:</p>
+                    <ol>
+                        <li>Movie review post creation</li>
+                        <li>Storage and retrieval of post information using a lightweight key/value storage solution built with Heroku</li>
+                        <li>Retrieval of up to date movie descriptions and ratings using The Movie Database (TMD) API</li>
+                    </ol>
+                </div>
+
+            </div>
 
         </section>
 
@@ -162,9 +200,9 @@
 
         <!----------------------------------- Contact ------------------------------>
         <!-- <section class="contact section" id="contact">
-            <span class="section-subtitle">Contact Me</span>
             <h2 class="section-title">Get In Touch</h2>
-
+            <span class="section-subtitle">Contact Me</span>
+            
             <div class="contact__container bd-grid">
                 <form action="#" class="contact__form">
                     <div class="contact__inputs">
@@ -172,7 +210,7 @@
                         <input type="mail" placeholder="Email" class="contact__input">
                     </div>
 
-                    <input type="text" placeholder="Project" class="contact__input">
+                    <input type="text" placeholder="Subject" class="contact__input">
                     <textarea placeholder="Message" name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                     <input type="submit" value="Send Message" class="button contact__button">
                 </form>
@@ -180,20 +218,17 @@
                 <div>
                     <div class="contact__info">
                         <h3 class="contact__subtitle">Call Me</h3>
-                        <span class="contact__text">+91 9845 657812</span>
-                        <span class="contact__text">+91 8746 657845</span>
+                        <span class="contact__text">484-894-3336</span>
                     </div>
 
                     <div class="contact__info">
                         <h3 class="contact__subtitle">E-mail</h3>
-                        <span class="contact__text">nihory@gmail.com</span>
-                        <span class="contact__text">me@nihory.com</span>
+                        <span class="contact__text">stephenender02@gmail.com</span>
                     </div>
 
                     <div class="contact__info">
                         <h3 class="contact__subtitle">Location</h3>
-                        <span class="contact__text">Cion, Mumbai</span>
-                        <span class="contact__text">Maharashtra, In</span>
+                        <span class="contact__text">Harrisonburg, VA</span>
                     </div>
                 </div>
             </div>
