@@ -780,6 +780,74 @@ img
 
 
 /* --------- Stephen Style -------------- */
+
+.education_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jmu_box
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.jmu_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.experience_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stlukes_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.security_plus_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.security_plus_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.network_plus_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.network_plus_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
 .project-box
 {
     display: flex;
@@ -792,7 +860,6 @@ img
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
