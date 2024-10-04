@@ -884,6 +884,73 @@ img
     margin-right: 5rem;
 }
 
+.leadership_box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pma_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.pma_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.jmu_cdc_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.jmu_cdc_box svg
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.jmu_cpc_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.jmu_cpc_box svg
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.jmu_mrd_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.jmu_mrd_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
 
 /* ------------------------- Media Queries for tablet screen ---------------------------- */
 @media screen and (min-width: 786px)
