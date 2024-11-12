@@ -14,10 +14,10 @@
     --font-bold: 700;
 
     /* Colors */
-    --first-color: #0f82c0;
+    --first-color: #228B22;
     --first-color-dark: #1b2f4d;
     --first-color-darken: #1b2f4de7;
-    --text-color: #2f4156;
+    --text-color: #1b2f4d;
     --first-color-light: #bddee9;
     --first-color-light-dark: #bddee9;
     --first-color-lighten: #e8f9ff;
@@ -87,6 +87,11 @@ h3
     font-weight: var(--font-semi-bold);
 }
 
+
+p {
+    color: var(--text-color);
+}
+
 ul
 {
     margin: 0;
@@ -122,7 +127,7 @@ img
 .section-title
 {
     font-size: var(--h1-font-size);
-    color: #0f82c0;
+    color: #228B22;
     margin-bottom: var(--mb-3);
     text-align: center;
 }
@@ -399,18 +404,17 @@ img
 
 /* -------------------------------------------- Skills ------------------------- */
 .all_skills_box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
 
 .skill_box {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
-    margin-right: 2rem;
     margin-top: 2rem;
-    align-items: center;
+    align-items: left;
 }
 
 /* -------------------------------- Education ---------------------------- */
@@ -742,6 +746,11 @@ img
     margin-right: 20px;
 }
 
+.jmu_info
+{
+    margin-right: 20px;
+}
+
 .experience_box
 {
     display: flex;
@@ -752,11 +761,17 @@ img
 .stlukes_box
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+}
+
+.stlukes_box img
+{
+    margin-left:20px;
+    margin-right: 20px;
 }
 
 .security_plus_box
@@ -841,7 +856,7 @@ img
     margin-right: 5rem;
 }
 
-.pma_box img
+.pma_box svg
 {
     margin-left:20px;
     margin-right: 20px;
