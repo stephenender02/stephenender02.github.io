@@ -811,21 +811,11 @@ img
     align-items: center;
 }
 
-.saferides_project_box
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
 .pma_ga_website_box
 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
