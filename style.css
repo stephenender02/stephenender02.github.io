@@ -112,6 +112,10 @@ img
     display: block;
 }
 
+br {
+    margin: 10px 0px;
+}
+
 /* Menu icon */
 .bx
 {
@@ -811,23 +815,18 @@ img
     align-items: center;
 }
 
-.pma_ga_website_box
+.inner-project-box
 {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-bottom: 5rem;
 }
 
-.jmuvies_box
-{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+.inner-project-box ul {
+    list-style: disc;
 }
 
 .leadership_box
@@ -846,37 +845,7 @@ img
     margin-right: 5rem;
 }
 
-.pma_box svg
-{
-    margin-left:20px;
-    margin-right: 20px;
-}
-
-.jmu_cdc_box
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.jmu_cdc_box svg
-{
-    margin-left:20px;
-    margin-right: 20px;
-}
-
-.jmu_cpc_box
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.jmu_cpc_box svg
+.pma_box img
 {
     margin-left:20px;
     margin-right: 20px;
@@ -1056,4 +1025,39 @@ img
         color: var(--first-color-dark);
         margin-bottom: var(--mb-5);
     }
+}
+
+@media screen and (max-width: 1190px) {
+
+.jmu_box
+{
+    flex-direction: column;
+    margin: 0px 2rem;
+}
+
+.stlukes_box
+{
+    flex-direction: column;
+}
+
+.security_plus_box
+{
+    flex-direction: column;
+}
+
+.network_plus_box
+{
+    flex-direction: column;
+}
+
+.pma_box
+{
+    flex-direction: column;
+}
+
+.jmu_mrd_box
+{
+    flex-direction: column;
+}
+
 }
