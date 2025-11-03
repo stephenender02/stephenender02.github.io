@@ -556,18 +556,10 @@ article {
 #experienceGrid {
   display: grid;
   grid-template: 
-    "fast sluhn";
+    "fast"
+    "sluhn";
   column-gap: 2em;
-}
-
-@media screen and (max-width: 1014px) {
-  #experienceGrid {
-    display: grid;
-    grid-template: 
-      "fast"
-      "sluhn";
-    row-gap: 2em;
-  }
+  row-gap: 2em;
 }
 
 .expCard {
