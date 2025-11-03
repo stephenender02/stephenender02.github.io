@@ -1,430 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Ender</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
-
-    <!------------------ External CSS ------------------>
-    <link rel="stylesheet" href="style.css">
-
-    <!------------------ Box Icons ------------------>
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="shortcut icon" type="image/png" href="src/images/favicon-32x32.png"/>
+  <title>Overview | Stephen Ender</title>
 </head>
-
 <body>
-    <!------------------------ Header starts from here ----------------------->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-
-            <div>
-                <a href="#" class="nav__logo">Stephen Ender</a>
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x'></i>
-                </div>
-
-                <ul class="nav__list">
-                    <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
-                    <li class="nav__item"> <a href="#about" class="nav__link"> About </a></li>
-                    <li class="nav__item"> <a href="#education" class="nav__link"> Education </a></li>
-                    <li class="nav__item"> <a href="#experience" class="nav__link"> Experience </a></li>
-                    <li class="nav__item"> <a href="#skills" class="nav__link"> Skills </a></li>
-                    <li class="nav__item"> <a href="#cyberprojects" class="nav__link"> Cybersecurity Projects</a></li>
-                    <li class="nav__item"> <a href="#appprojects" class="nav__link">Application Development Projects </a></li>
-                    <li class="nav__item"> <a href="#leadership" class="nav__link"> Leadership and Community Involvement </a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!------------------------ Header ends from here ----------------------->
-
-    <!------------------------ Body starts from here ----------------------->
-    <main class="l-main">
-        <!------------------- Home ------------------->
-        <section class="home" id="home">
-            <div class="home__container bd-grid">
-                <div class="home__data">
-                    <div class="home__img">
-                        <img src="images/stephenPicture.png" alt="Stephen Ender" title="Stephen Ender">
-                    </div>
-
-                    <h1 class="home__title">Stephen Ender</h1>
-                    <span class="home__profession">Cybersecurity and Software Development</span>
-
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/stephen-ender/" class="home__social-link" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/stephenender02" class="home__social-link" target="_blank"><i class='bx bxl-github'></i></a>
-                    </div>
-                    <a href="files/StephenEnder2025.pdf" download class="button home__button">Download Resume</a>
-                </div>
-            </div>
-        </section>
-
-        <!-------------------------- About ---------------------------->
-        <section class="about section" id="about">
-
-            <h2 class="section-title">About Me</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__data">
-                    <p class="about__description">
-                        Hi, I'm Stephen! I am a computer scientist particularly interested in the fields of cybersecurity, software development, and computer networking. I studied at James Madison University, where I've received my Bachelor of Science in Computer Science. When I'm not at the keyboard, I enjoy playing the saxophone and the guitar, watching the Dukes play football and basketball, and trying to cook new recipes in the kitchen!
-                    </p>
-                    <!-- <img src="images/photo-1522529599102-193c0d76b5b6.jpeg" alt="Stephen Ender" title="Stephen Ender" class="about__img"> -->
-                </div>
-
-                <div>
-                    <div class="about__information">
-                        <h3 class="about__information-title">My Information</h3>
-
-                        <div class="about__information-data">
-                            <i class='bx bxs-user about__information-icon'></i>
-                            <span>Stephen Ender</span>
-                        </div>
-
-                        <div class="about__information-data">
-                            <i class='bx bxs-envelope about__information-icon'></i>
-                            <span>stephenender02@gmail.com</span>
-                        </div>
-                    </div>
-        </section>
-
-        <!--------------------------------- Education ------------------------------->
-        <section class="education section" id="education">
-            <h2 class="section-title">My Education</h2>
-            <div class="education_box">
-                <h2>James Madison University</h2>
-                <div class="jmu_box">
-                    <img src="/images/jmu.jpg" alt="" width="500rem">
-                    <div class="jmu_info">
-                        <p>I graduated from James Madison University in May of 2025. Studying with a <strong>major in Computer Science</strong> and a <strong>minor in Computational Analytics</strong>, I have taken electives in Cyber Defense, Cryptography, Information Security, Computer Networking, and Application Development. I have recieved the <strong>NSTISSI No. 4011 Certification for Information Systems Security Professionals</strong>.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!---------------------------- Experience ---------------------------->
-        <section class="experience section" id="experience">
-            <h2 class="section-title">My Experience</h2>
-
-            <div class="experience_box">
-
-                <h2>Information Technology Intern</h2>
-                <h3>St. Luke’s University Health Network</h3>
-                <h3>May 2022 - Aug 2022; Jun 2024 - Aug 2024</h3>
-                <br>
-                <div class="stlukes_box">
-                    <img src="/images/St._Luke's_University_Health_Network_logo.png" alt="" width="250rem">
-                    <br>
-                    <p>During my internships with St. Luke's, I responded to cyber security incidents, planned, executed, and presented results of phishing attack simulation training, prepared Disaster Recovery after action reports, and investigated threats by writing KQL queries with Microsoft Defender XDR Advanced Hunting.</p>
-                </div>
-
-                <h2>CompTIA Security+ Certification</h2>
-                <br>
-                <div class="security_plus_box">
-                    <img src="/images/comptia-security-ce-certification-removebg-preview.png" alt="" width="250rem">
-                    <div class="security_plus_info">
-                        <p>In July of 2023, I received the CompTIA Security+ Certification. Earners of the CompTIA Security+ certification have the knowledge and skills necessary to perform core security functions required of any cybersecurity role. CompTIA Security+ professionals know how to identify and address potential threats, attacks and vulnerabilities and they have established techniques in risk management, risk mitigation, threat management and intrusion detection.</p>
-                        <br>
-                        <a href="https://www.credly.com/badges/b950e9c2-00de-405e-9c3d-8aa53b9f4914/public_url" target="_blank" class="button home__button">View Security+ Certification</a>
-                    </div>
-                </div>
-                
-                <br>
-                <br>
-                <br>
-                <h2>CompTIA Network+ Certification</h2>
-                <br>
-                <div class="network_plus_box">
-                    <img src="/images/comptia-network-ce-certification.1-removebg-preview.png" alt="" width="250rem">
-                    <div class="network_plus_info">
-                        <p>In June of 2023, I received the CompTIA Network+ Certification. Earners of the CompTIA Network+ certification have the skills needed to troubleshoot, configure, and manage wired and wireless networks found in companies around the world. CompTIA Network+ professionals have demonstrated the ability to design and implement functional networks, configure, manage, and maintain essential network devices, implement network security, and troubleshoot network problems.</p>
-                        <br>
-                        <a href="https://www.credly.com/badges/49f180f5-c634-4505-aa08-c05e8556f7b4/public_url" target="_blank" class="button home__button">View Network+ Certification</a>
-                    </div>
-                </div>
-                
-
-            </div>
-
-        </section>
-
-
-        <!--------------------------------- Skills ------------------------------->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">My Skills</h2>
-
-            <div class="all_skills_box">
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><defs><linearGradient id="A" x1="811.527" y1="574.895" x2="665.255" y2="573.732" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#366a96"/><stop offset="1" stop-color="#3679b0"/></linearGradient><linearGradient id="B" x1="862.824" y1="642.176" x2="573.276" y2="642.176" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc836"/><stop offset="1" stop-color="#ffe873"/></linearGradient></defs><g transform="matrix(.1617 0 0 .158089 -107.53764 -81.66187)"><path d="M716.255 544.487c0-13.623 3.653-21.034 23.822-24.563 13.693-2.4 31.25-2.7 47.627 0 12.935 2.135 23.822 11.77 23.822 24.563v44.945c0 13.182-10.57 23.98-23.822 23.98h-47.627c-16.164 0-29.787 13.782-29.787 29.363v21.564h-16.376c-13.852 0-21.917-9.988-25.305-23.964-4.57-18.776-4.376-29.963 0-47.945 3.794-15.687 15.917-23.964 29.77-23.964h65.52v-6h-47.645v-17.98z" fill="url(#A)"/><path d="M811.527 688.32c0 13.623-11.823 20.523-23.822 23.964-18.052 5.188-32.54 4.394-47.627 0-12.6-3.67-23.822-11.17-23.822-23.964v-44.945c0-12.935 10.782-23.98 23.822-23.98h47.627c15.864 0 29.787-13.71 29.787-29.963v-20.964h17.858c13.87 0 20.4 10.305 23.822 23.964 4.764 18.97 4.976 33.157 0 47.945-4.817 14.364-9.97 23.964-23.822 23.964H763.9v6h47.627v17.98z" fill="url(#B)"/><path d="M728.166 541.505c0-4.976 3.988-9 8.93-9 4.923 0 8.93 4.023 8.93 9 0 4.96-4.006 8.982-8.93 8.982-4.94 0-8.93-4.023-8.93-8.982zm53.59 149.798c0-4.96 4.006-8.982 8.93-8.982 4.94 0 8.93 4.023 8.93 8.982 0 4.976-3.988 9-8.93 9-4.923 0-8.93-4.023-8.93-9z" fill="#fff"/></g></svg>
-                    <h2>Python</h2>
-                    <li>Applied Algorithms (CS412)</li>
-                    <li>Numerical Analysis (CS448)</li>
-                    <li>Computers & Numerical Algorithms (MATH248)</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 48 48">
-                        <path fill="#283593" fill-rule="evenodd" d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z" clip-rule="evenodd"></path><path fill="#5c6bc0" fill-rule="evenodd" d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z" clip-rule="evenodd"></path><path fill="#3949ab" fill-rule="evenodd" d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z" clip-rule="evenodd"></path>
-                    </svg>
-                    <h2>C</h2>
-                    <li>Advance Computer Networking (CS455)</li>
-                    <li>Infomation Security (CS457)</li>
-                    <li>Computer Systems classes (CS261/CS361)</li>
-                </div>
-
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32" fill="#558"><path d="M.774 22.15c0-.48.067-.885.2-1.213a2.17 2.17 0 0 1 .583-.813 2.31 2.31 0 0 1 .86-.445c.328-.092.68-.138 1.06-.138a3.62 3.62 0 0 1 1.013.138c.327.092.614.24.86.445s.44.476.583.813c.143.328.215.732.215 1.213 0 .46-.072.854-.215 1.182a2.27 2.27 0 0 1-.583.813c-.245.215-.532.368-.86.46a3.29 3.29 0 0 1-1.013.153c-.38 0-.732-.05-1.06-.153a2.19 2.19 0 0 1-.86-.46c-.246-.215-.44-.486-.583-.813-.133-.327-.2-.72-.2-1.182m8.656 9.746c-.5 0-.998-.036-1.52-.107s-.957-.164-1.304-.276V27.83c.317.102.614.174.9.215a5.27 5.27 0 0 0 .936.077c.256 0 .496-.04.72-.123a1.16 1.16 0 0 0 .6-.414c.174-.194.312-.46.414-.798.102-.327.153-.752.153-1.274V7.188h4.68v19.015c0 .788-.102 1.524-.307 2.2a4.43 4.43 0 0 1-.967 1.8c-.44.522-1.013.93-1.72 1.228s-1.565.445-2.578.445m.7-29.144c0-.44.067-.803.2-1.1s.312-.532.537-.706c.235-.184.506-.312.813-.384.317-.072.65-.107.998-.107a4.29 4.29 0 0 1 .982.107 1.94 1.94 0 0 1 .798.384 1.74 1.74 0 0 1 .552.706c.143.287.215.65.215 1.1 0 .43-.072.793-.215 1.1-.133.297-.317.537-.552.72a2.22 2.22 0 0 1-.798.384 4.29 4.29 0 0 1-.982.108c-.348 0-.68-.035-.998-.108a2.39 2.39 0 0 1-.813-.384c-.225-.184-.404-.425-.537-.72s-.2-.66-.2-1.1m21.12 16.518c0 .9-.164 1.688-.5 2.363a4.54 4.54 0 0 1-1.397 1.688c-.604.45-1.335.788-2.195 1.013s-1.82.338-2.885.338c-.563 0-1.085-.02-1.565-.06a11.14 11.14 0 0 1-1.366-.169c-.43-.082-.844-.184-1.243-.307a10.48 10.48 0 0 1-1.212-.46V19.79c.43.215.88.4 1.35.583l1.427.46 1.366.292a7.91 7.91 0 0 0 1.243.107c.42 0 .778-.035 1.074-.107.297-.082.537-.2.72-.322.194-.143.333-.307.414-.5a1.42 1.42 0 0 0 .138-.614c0-.215-.036-.404-.107-.568-.06-.174-.2-.353-.445-.537-.235-.194-.583-.4-1.044-.644l-1.826-.9-1.95-.998c-.542-.338-.992-.7-1.35-1.12a4.17 4.17 0 0 1-.783-1.397c-.174-.532-.26-1.16-.26-1.888 0-.798.153-1.494.46-2.087a4.1 4.1 0 0 1 1.304-1.504c.563-.4 1.238-.696 2.026-.9.798-.205 1.683-.307 2.655-.307 1.023 0 1.995.118 2.916.353s1.867.588 2.84 1.06l-1.412 3.315c-.778-.368-1.52-.67-2.225-.905a6.67 6.67 0 0 0-2.118-.353c-.634 0-1.095.113-1.38.338-.276.225-.414.532-.414.92 0 .205.036.4.107.553.072.154.215.317.43.5.215.164.517.348.905.552l1.52.72 1.964.95a6.68 6.68 0 0 1 1.504 1.059 4.13 4.13 0 0 1 .967 1.397c.225.532.338 1.177.338 1.934"/></svg>
-                    <h2>JavaScript</h2>
-                    <li>Application Development (CS343)</li>
-                    <li>SARR Tournament Manager Project</li>
-                    <li>JM'Uvies project</li>
-                    <li>PMA Sinfonia website</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><path d="M4.46 28.802L1.892.001h28.216l-2.57 28.797L15.982 32z" fill="#e44d26"/><path d="M25.337 26.964l2.197-24.608H16v27.197z" fill="#f16529"/><path d="M15.988 5.888H7.142l.953 10.682H16v-3.532h-4.674l-.323-3.617H16V5.888zM16 22.2l-.015.004-3.934-1.062-.25-2.817H8.253l.495 5.546 7.236 2 .016-.005z" fill="#ebebeb"/><path d="M15.988 16.57h4.35l-.4 4.58-3.94 1.063v3.675l7.242-2.007.97-10.845H16zm8.764-9.734l.084-.948h-8.85V9.42h8.532l.07-.794z" fill="#fff"/></svg>
-                    <h2>HTML and CSS</h2>
-                    <li>Application Development (CS343)</li>
-                    <li>SARR Tournament Manager Project</li>
-                    <li>JM'Uvies project</li>
-                    <li>PMA Sinfonia website</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32"><path d="M11.622 24.74s-1.23.748.855.962c2.51.32 3.847.267 6.625-.267a10.02 10.02 0 0 0 1.763.855c-6.25 2.672-14.16-.16-9.244-1.55zm-.8-3.473s-1.336 1.015.748 1.23c2.725.267 4.862.32 8.55-.427a3.26 3.26 0 0 0 1.282.801c-7.534 2.244-15.976.214-10.58-1.603zm14.747 6.09s.908.748-1.015 1.336c-3.58 1.07-15.014 1.39-18.22 0-1.122-.48 1.015-1.175 1.7-1.282.695-.16 1.07-.16 1.07-.16-1.23-.855-8.175 1.763-3.526 2.51 12.77 2.084 23.296-.908 19.983-2.404zM12.2 17.633s-5.824 1.39-2.084 1.87c1.603.214 4.755.16 7.694-.053 2.404-.214 4.81-.64 4.81-.64s-.855.374-1.443.748c-5.93 1.55-17.312.855-14.052-.748 2.778-1.336 5.076-1.175 5.076-1.175zm10.42 5.824c5.984-3.1 3.206-6.09 1.282-5.717-.48.107-.695.214-.695.214s.16-.32.534-.427c3.794-1.336 6.786 4.007-1.23 6.09 0 0 .053-.053.107-.16zm-9.83 8.442c5.77.374 14.587-.214 14.8-2.94 0 0-.427 1.07-4.755 1.87-4.916.908-11.007.8-14.587.214 0 0 .748.64 4.542.855z" fill="#4e7896"/><path d="M18.996.001s3.313 3.366-3.152 8.442c-5.183 4.114-1.175 6.465 0 9.137-3.046-2.725-5.236-5.13-3.74-7.373C14.294 6.893 20.332 5.3 18.996.001zm-1.7 15.335c1.55 1.763-.427 3.366-.427 3.366s3.954-2.03 2.137-4.542c-1.656-2.404-2.94-3.58 4.007-7.587 0 0-10.953 2.725-5.717 8.763z" fill="#f58219"/></svg>
-                    <h2>Java</h2>
-                    <li>Fundamental programming classes (CS149/CS159)</li>
-                    <li>Data Structures and Algorithms (CS240)</li>
-                </div>
-
-                <div class="skill_box">
-                    <img src="Icons/Ruby_logo.svg.png" alt="" width="64">
-                    <h2>Ruby</h2>
-                    <li>Programming Languages (CS430)</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg width="64" height="64" viewBox="5 4 38 40" xmlns="http://www.w3.org/2000/svg"><path d="m24 44a1 1 0 0 1 0-2z" fill="#0370c8"/><path d="m25 43a1 1 0 0 1 -1 1v-2a1 1 0 0 1 1 1z" fill="#0f5094"/><circle cx="42" cy="11" fill="#0883d9" r="1"/><circle cx="6" cy="11" fill="#33bff0" r="1"/><path d="m24 43 .427.907s15.144-7.9 18.08-19.907h-18.507z" fill="#0f5094"/><path d="m43 11-1-1c-11.122 0-11.278-6-18-6v20h18.507c.315-1.288.493-2.622.493-4z" fill="#0883d9"/><path d="m24 43-.427.907s-15.144-7.9-18.08-19.907h18.507z" fill="#0370c8"/><path d="m5 11 1-1c11.122 0 11.278-6 18-6v20h-18.507a16.789 16.789 0 0 1 -.493-4z" fill="#33bff0"/></svg>
-                    <h2>Microsoft Defender XDR</h2>
-                    <li>St. Luke’s University Health Network Internship</li>
-                    <li>Microsoft Sentinel & Defender XDR Virtual Ninja Training</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><path d="M16.365 17.052q-5.203 0-8.277 3.88-3.05 3.878-3.05 10.57 0 6.67 3.05 10.547 3.074 3.88 8.277 3.88 5.203 0 8.23-3.88 3.05-3.878 3.05-10.547 0-6.693-3.05-10.57-3.027-3.88-8.23-3.88zm0-3.878q7.426 0 11.872 5 4.446 4.966 4.446 13.338 0 8.348-4.446 13.338-4.446 4.966-11.872 4.966-7.45 0-11.92-4.966Q0 39.873 0 31.502q0-8.372 4.446-13.338 4.47-5 11.92-5z" fill="#480e0c"/><path d="M61.682 14.924v7.473q-2.91-1.3-5.676-1.963-2.767-.662-5.226-.662-3.264 0-4.824.9-1.56.9-1.56 2.79 0 1.42 1.04 2.223 1.064.78 3.83 1.348l3.878.78q5.89 1.183 8.372 3.595Q64 33.82 64 38.265q0 5.84-3.476 8.703-3.453 2.838-10.57 2.838-3.358 0-6.74-.64-3.382-.638-6.764-1.892V39.6q3.382 1.797 6.527 2.72 3.17.9 6.1.9 2.98 0 4.564-.993 1.584-.993 1.584-2.838 0-1.655-1.088-2.554-1.064-.9-4.28-1.608l-3.524-.78q-5.297-1.135-7.757-3.618-2.436-2.483-2.436-6.693 0-5.274 3.405-8.112 3.405-2.838 9.79-2.838 2.91 0 5.983.45 3.074.426 6.362 1.3z"/></svg>
-                    <h2>OpenSSL</h2>
-                    <li>Information Security (CS457)</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,9c0-1.3-0.84-2.4-2-2.82V2h-2v4.18C13.84,6.6,13,7.7,13,9s0.84,2.4,2,2.82V15c0,2.21-1.79,4-4,4s-4-1.79-4-4v-1h3L5,9 v6c0,3.31,2.69,6,6,6s6-2.69,6-6v-3.18C18.16,11.4,19,10.3,19,9z M16,10c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S16.55,10,16,10z"/></svg>
-                    <h2>Anti-Phishing Campaign</h2>
-                    <li>St. Luke’s University Health Network Internship</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg"><path d="M32 5c14.912 0 27 12.088 27 27S46.911 59 32 59 5 46.911 5 32 17.088 5 32 5z" fill="#298fc4"/><path d="M43.335 17.877c-10.936.165-17.058 6.4-20.286 12.472-2.954 5.557-3.399 10.152-3.486 11.042H6.68c.297.802.63 1.585 1 2.348h12.8c.335 0 .661-.152.88-.404.124-.147.217-.324.258-.514a.766.766 0 0 0 0-.147s.55-5.562 3.521-11.152c2.774-5.213 7.706-10.253 16.505-11.042-5.236 10.483.262 22.598.262 22.598.041.05.092.1.147.147.202.298.55.495.912.514h13.353c.37-.763.702-1.546 1-2.348H43.846c-.45-1.004-5.512-12.583.555-21.717.156-.275.197-.614.11-.917a1.203 1.203 0 0 0-.257-.514 1.192 1.192 0 0 0-.917-.368h-.002z" fill="#19536f"/></svg>
-                    <h2>Wireshark</h2>
-                    <li>Advanced Computer Networking (CS455)</li>
-                    <li>Networking, Telecom., and Security (IT215)</li>
-                    <li>Information Security and Privacy (IT203)</li>
-                </div>
-
-                <div class="skill_box">
-                    <svg width="64" height="64" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>scrum</title>
-                        <g id="scrum" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <path d="M13,15 L10.2441744,15 C11.124926,14.4915678 11.8926857,13.8092664 12.5005493,13 L13,13 L13,12 L16,14 L13,16 L13,15 L13,15 Z M7,2.01894482 C10.3562239,2.27425725 13,5.07838512 13,8.5 C13,11.9216149 10.3562239,14.7257427 7,14.9810552 L7,15 L0,15 L0,13 L1.80957219,13 C0.688804065,11.8321055 0,10.2464921 0,8.5 C0,6.74928914 0.697173604,5.10942233 1.90429543,3.90322157 L3.52798199,5.12098649 C2.56264048,5.970845 2,7.18877314 2,8.5 C2,10.9852814 4.01471863,13 6.5,13 C8.98528137,13 11,10.9852814 11,8.5 C11,6.18372317 9.24997523,4.27618653 7,4.02746439 L7,6 L3,3 L7,0 L7,2.01894482 L7,2.01894482 Z" id="形状" fill="#252B3A"></path>
-                        </g>
-                    </svg>
-                    <h2>Agile Methodology</h2>
-                    <li>JM'Uvies project</li>
-                    <li>Angel's Answers project</li>
-                </div>
-                
-                <div class="skill_box">
-                    <svg width="64" height="64" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="M6.72192,5.68434189e-16 C6.62272,5.68434189e-16 6.52032,0.00512 6.41536,0.01344 C3.71008,0.22656 4.42752,3.08992 4.38656,4.04416 C4.33728,4.74368 4.19456,5.29472 3.71392,5.9776 C3.14752,6.65024 2.35264,7.7376 1.97568,8.87104 C1.79776,9.40352 1.71328,9.9488 1.792,10.464 C1.76704,10.48576 1.74336,10.50752 1.72096,10.5504 C1.55456,10.72192 1.4336,10.93504 1.29728,11.08736 C1.16992,11.21472 0.98688,11.25824 0.7872,11.34336 C0.58688,11.4304 0.36608,11.51552 0.23424,11.7792 C0.17664,11.89952 0.1472,12.03072 0.14976,12.16384 C0.14976,12.2912 0.16704,12.42048 0.18496,12.50688 C0.22208,12.76224 0.2592,12.97344 0.20992,13.12768 C0.0512,13.56288 0.03136,13.86112 0.14272,14.07808 C0.25408,14.29184 0.48512,14.37824 0.74368,14.46272 C1.26272,14.59072 1.96608,14.54912 2.51968,14.84608 C3.11232,15.14496 3.71392,15.27552 4.19392,15.14688 C4.53056,15.07328 4.81472,14.85056 4.96704,14.54208 C5.34272,14.54016 5.75424,14.36992 6.41344,14.32832 C6.8608,14.2912 7.4208,14.4992 8.06336,14.45568 C8.07936,14.54208 8.10368,14.58304 8.13632,14.66944 L8.13824,14.67136 C8.38848,15.16928 8.85056,15.39584 9.344,15.3568 C9.83744,15.3184 10.36288,15.01376 10.78848,14.52096 C11.19232,14.03136 11.8656,13.8272 12.3104,13.55904 C12.53312,13.43168 12.71296,13.25888 12.72576,13.01312 C12.74048,12.75712 12.5984,12.49344 12.2688,12.13184 L12.2688,12.06976 L12.26688,12.06784 C12.15808,11.93984 12.10688,11.72544 12.05056,11.4752 C11.99616,11.21856 11.93408,10.97216 11.73568,10.80576 L11.73376,10.80576 C11.696,10.7712 11.65504,10.76288 11.61344,10.71936 C11.5776,10.69504 11.536,10.67968 11.49184,10.6784 C11.76768,9.86048 11.6608,9.0464 11.38112,8.31424 C11.04,7.41184 10.44352,6.62592 9.98912,6.08512 C9.47968,5.44192 8.98048,4.83264 8.99008,3.92896 C9.00736,2.55168 9.14176,0.00384 6.72192,5.68434189e-16 Z M7.06048,2.1792 L7.0688,2.1792 C7.20512,2.1792 7.32224,2.21888 7.44256,2.30592 C7.5648,2.39232 7.65376,2.5184 7.72352,2.64704 C7.79072,2.8128 7.82464,2.9408 7.82976,3.1104 C7.82976,3.0976 7.8336,3.0848 7.8336,3.07264 L7.8336,3.1392 C7.83232,3.13472 7.83104,3.1296 7.83104,3.12576 L7.82848,3.1104 C7.8272,3.26592 7.79456,3.41952 7.73248,3.56224 C7.7024,3.64224 7.65632,3.71584 7.59616,3.77664 C7.5776,3.7664 7.55968,3.75744 7.53984,3.74976 C7.47264,3.72096 7.41248,3.7088 7.35744,3.66464 C7.312,3.64672 7.26464,3.632 7.21728,3.6224 C7.24864,3.58464 7.31008,3.53728 7.33376,3.49568 C7.36768,3.41376 7.38624,3.32672 7.39008,3.2384 L7.39008,3.22624 C7.39136,3.13984 7.37856,3.0528 7.35104,2.97024 C7.32224,2.88384 7.2864,2.8416 7.23392,2.75648 C7.18016,2.71424 7.12704,2.672 7.06304,2.672 L7.0528,2.672 C6.99328,2.672 6.94016,2.6912 6.88512,2.75648 C6.82432,2.81664 6.77888,2.88896 6.75392,2.97024 C6.72,3.05152 6.70016,3.1392 6.69632,3.22624 L6.69632,3.2384 C6.6976,3.29536 6.70144,3.35296 6.70912,3.40928 C6.5856,3.3664 6.4288,3.32288 6.32064,3.28 C6.31424,3.2384 6.3104,3.19552 6.30912,3.15264 L6.30912,3.13984 C6.304,2.97088 6.33664,2.8032 6.40512,2.64768 C6.4576,2.50752 6.5536,2.38784 6.68032,2.30656 C6.78976,2.224 6.92288,2.1792 7.06048,2.1792 Z M5.1648,2.21696 L5.18784,2.21696 C5.27872,2.21696 5.36064,2.24768 5.4432,2.30336 C5.53664,2.38592 5.61216,2.48768 5.66336,2.60096 C5.72096,2.72832 5.7536,2.8576 5.76128,3.02784 L5.76128,3.0304 C5.76576,3.11616 5.76512,3.15904 5.76,3.20064 L5.76,3.25184 C5.7408,3.25632 5.72416,3.26336 5.70688,3.2672 C5.6096,3.3024 5.53152,3.3536 5.45536,3.3952 C5.46304,3.33824 5.46368,3.28064 5.45728,3.22432 L5.45728,3.21472 C5.4496,3.1296 5.43232,3.08736 5.4048,3.0016 C5.38496,2.93632 5.34848,2.87808 5.29856,2.83072 C5.2672,2.80192 5.22496,2.7872 5.18144,2.78976 L5.168,2.78976 C5.12256,2.7936 5.0848,2.816 5.04896,2.87424 C5.008,2.92352 4.98176,2.98368 4.97216,3.04704 C4.95488,3.11616 4.94976,3.1872 4.95744,3.25888 L4.95744,3.26784 C4.96512,3.35424 4.98112,3.39648 5.00928,3.4816 C5.03808,3.56736 5.07136,3.6096 5.11488,3.65312 C5.12192,3.65888 5.12832,3.66464 5.13664,3.66848 C5.09184,3.70496 5.06176,3.71328 5.024,3.75552 C5.00032,3.77344 4.9728,3.79392 4.94016,3.79904 C4.8736,3.71904 4.81472,3.63264 4.76416,3.54176 C4.70272,3.40736 4.67072,3.26144 4.66496,3.11488 C4.65408,2.97024 4.672,2.8256 4.71616,2.68736 C4.75136,2.56128 4.81344,2.4448 4.89728,2.34496 C4.9792,2.25984 5.06368,2.21696 5.1648,2.21696 Z M6.04224,3.3088 C6.25408,3.3088 6.51072,3.3504 6.81984,3.56416 C7.00736,3.69216 7.15456,3.73632 7.49376,3.86368 L7.49568,3.86368 C7.65888,3.95072 7.75488,4.03392 7.8016,4.11904 L7.8016,4.0352 C7.84832,4.12928 7.85152,4.23872 7.81184,4.336 C7.73312,4.53504 7.4816,4.74816 7.13088,4.87552 L7.13088,4.8768 C6.95936,4.9632 6.81024,5.08992 6.63488,5.1744 C6.45824,5.2608 6.25856,5.36128 5.9872,5.34528 C5.88992,5.3504 5.792,5.33568 5.70048,5.3024 C5.63008,5.264 5.56096,5.22176 5.4944,5.17568 C5.3696,5.08928 5.26208,4.9632 5.10272,4.87808 L5.10272,4.87488 L5.09952,4.87488 C4.84352,4.71744 4.70528,4.5472 4.66048,4.41984 C4.61632,4.24832 4.65728,4.11968 4.784,4.03584 C4.92736,3.94944 5.0272,3.8624 5.09312,3.8208 C5.15968,3.77344 5.18464,3.75552 5.20576,3.73696 L5.20704,3.73696 L5.20704,3.73504 C5.3152,3.60576 5.48608,3.43488 5.744,3.3504 C5.83296,3.32736 5.93216,3.3088 6.04224,3.3088 Z M7.8336,4.68032 C8.06336,5.5872 8.59968,6.90432 8.94464,7.54304 C9.12768,7.8848 9.49184,8.6048 9.64992,9.4784 C9.74976,9.4752 9.86048,9.48992 9.97824,9.51936 C10.39168,8.44992 9.6288,7.30048 9.28128,6.98112 C9.13984,6.85248 9.1328,6.76672 9.20256,6.76672 C9.57952,7.10848 10.07616,7.7728 10.256,8.5312 C10.33856,8.8736 10.35776,9.23776 10.26944,9.6 C10.31232,9.61792 10.35584,9.63904 10.40064,9.64288 C11.06112,9.98464 11.30496,10.2432 11.18784,10.62656 L11.18784,10.59904 C11.1488,10.59712 11.11104,10.59904 11.072,10.59904 L11.0624,10.59904 C11.15904,10.30016 10.94592,10.07104 10.3808,9.81568 C9.7952,9.55968 9.32736,9.60064 9.24736,10.11328 C9.24288,10.1408 9.23968,10.15552 9.23648,10.19968 C9.19296,10.2144 9.14752,10.2336 9.10272,10.24064 C8.82752,10.41216 8.67904,10.6688 8.5952,11.00032 C8.512,11.34144 8.4864,11.74016 8.464,12.19648 L8.464,12.1984 C8.45056,12.41216 8.35456,12.73472 8.25984,13.06304 C7.29984,13.74912 5.96864,14.04736 4.83648,13.2768 C4.76544,13.15328 4.67904,13.03744 4.5792,12.93568 C4.53184,12.85568 4.47168,12.784 4.4032,12.72192 C4.51968,12.72192 4.61952,12.70336 4.7008,12.67904 C4.7936,12.63616 4.86528,12.55872 4.90176,12.46528 C4.97088,12.2944 4.90176,12.0192 4.68096,11.72096 C4.46016,11.42208 4.08512,11.08416 3.53664,10.74752 C3.13344,10.49216 2.9056,10.19072 2.80064,9.85408 C2.69504,9.51232 2.70912,9.15968 2.79104,8.80128 C2.94784,8.11648 3.34976,7.45088 3.6064,7.03296 C3.67488,6.99136 3.63008,7.11936 3.34528,7.65632 C3.09184,8.13696 2.61504,9.2544 3.2672,10.12288 C3.29152,9.48992 3.43232,8.86528 3.68128,8.28224 C4.04224,7.46432 4.7968,6.03968 4.85632,4.91072 C4.88704,4.93376 4.9952,4.99712 5.04128,5.04 C5.1808,5.12512 5.28448,5.25312 5.41888,5.3376 C5.55392,5.46624 5.72416,5.552 5.97952,5.552 C6.00448,5.55392 6.02752,5.55584 6.05056,5.55584 C6.3136,5.55584 6.51712,5.47008 6.688,5.38432 C6.8736,5.29856 7.02144,5.17056 7.1616,5.12832 L7.1648,5.12832 C7.46368,5.04192 7.69984,4.87104 7.8336,4.68032 Z M9.23264,10.41344 C9.25632,10.79808 9.45216,11.21024 9.79712,11.29472 C10.17344,11.38048 10.71488,11.0816 10.94336,10.80512 L11.0784,10.79936 C11.28,10.79424 11.44768,10.80576 11.62048,10.97024 L11.6224,10.97216 C11.75552,11.09952 11.8176,11.312 11.87264,11.5328 C11.92704,11.78944 11.9712,12.032 12.1344,12.21504 C12.44544,12.55232 12.5472,12.79488 12.54144,12.94464 L12.54336,12.9408 L12.54336,12.95232 L12.54144,12.94464 C12.53184,13.11232 12.42304,13.19808 12.22272,13.32544 C11.81952,13.58208 11.10528,13.78112 10.65024,14.33024 C10.25472,14.80192 9.7728,15.0592 9.3472,15.09248 C8.92224,15.1264 8.55552,14.96448 8.33984,14.51776 L8.33664,14.51584 C8.20224,14.2592 8.25984,13.85984 8.37248,13.43424 C8.48512,13.00672 8.6464,12.57344 8.6688,12.21952 C8.69248,11.76256 8.71744,11.36512 8.7936,11.05856 C8.8704,10.76096 8.99072,10.54848 9.20384,10.4288 L9.23264,10.41472 L9.23264,10.41344 Z M2.31104,10.4448 L2.31744,10.4448 C2.35136,10.4448 2.38464,10.448 2.41792,10.45376 C2.65856,10.48896 2.86976,10.66688 3.07264,10.93504 L3.65504,12 L3.65696,12.00192 C3.81248,12.34304 4.13952,12.68288 4.41792,13.05024 C4.69568,13.43296 4.91072,13.77408 4.88448,14.05504 L4.88448,14.05888 C4.848,14.53504 4.57792,14.7936 4.16448,14.88704 C3.75168,14.97344 3.19168,14.88832 2.63168,14.59008 C2.01216,14.24704 1.27616,14.28992 0.8032,14.2048 C0.56704,14.16256 0.41216,14.07616 0.34048,13.94816 C0.26944,13.8208 0.26816,13.56352 0.4192,13.16096 L0.4192,13.15904 L0.42048,13.15712 C0.49536,12.94336 0.43968,12.6752 0.4032,12.44096 C0.368,12.18432 0.35008,11.9872 0.43072,11.83936 C0.53312,11.6256 0.68416,11.584 0.87168,11.49824 C1.06048,11.41184 1.28192,11.36896 1.45792,11.19808 L1.4592,11.19808 L1.4592,11.19616 C1.62304,11.02464 1.744,10.81152 1.88672,10.65984 C2.00832,10.5312 2.12992,10.4448 2.31104,10.4448 Z M6.8928,4.63744 C6.6144,4.76608 6.288,4.97984 5.94048,4.97984 C5.5936,4.97984 5.31968,4.80896 5.12192,4.6816 C5.02272,4.59584 4.94272,4.51008 4.88256,4.4672 C4.7776,4.38144 4.7904,4.25344 4.8352,4.25344 C4.90496,4.26368 4.91776,4.33984 4.96256,4.38208 C5.024,4.42432 5.10016,4.50944 5.1936,4.5952 C5.37984,4.7232 5.6288,4.89408 5.93984,4.89408 C6.25024,4.89408 6.61376,4.7232 6.83456,4.59584 C6.95936,4.50944 7.11936,4.38208 7.24928,4.29696 C7.34912,4.20928 7.34464,4.12544 7.42784,4.12544 C7.5104,4.13568 7.4496,4.2112 7.33376,4.33856 C7.21792,4.42496 7.03872,4.55296 6.89216,4.63808 L6.89216,4.63744 L6.8928,4.63744 Z M6.20032,3.62368 L6.20032,3.6096 C6.19648,3.59744 6.20864,3.58272 6.21888,3.5776 C6.26624,3.55008 6.33408,3.56032 6.38528,3.58016 C6.4256,3.58016 6.48768,3.62304 6.48128,3.66656 C6.47744,3.69792 6.42688,3.7088 6.39488,3.7088 C6.35968,3.7088 6.336,3.68128 6.30464,3.66528 C6.27136,3.65376 6.2112,3.66016 6.20032,3.62368 Z M5.84768,3.62368 C5.83488,3.6608 5.77536,3.65504 5.74144,3.66592 C5.71136,3.68192 5.6864,3.70944 5.65248,3.70944 C5.61984,3.70944 5.56864,3.69728 5.5648,3.66592 C5.55904,3.62368 5.62112,3.5808 5.6608,3.5808 C5.71264,3.56096 5.77856,3.55072 5.82656,3.5776 C5.83872,3.58336 5.8496,3.5968 5.84576,3.6096 L5.84576,3.62304 L5.84768,3.62304 L5.84768,3.62368 Z"></path>
-                    </svg>
-                    <h2>Linux</h2>
-                    <li>Computer Systems classes (CS261/CS361)</li>
-                    <li>Information Security (CS457)</li>
-                    <li>Advanced Computer Networking (CS455)</li>
-                    <li>AFA CyberPatriot Competitions</li>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!------------------------------- Cyber Sec Projects ------------------------------>
-        <section class="projects section" id="cyberprojects">
-            <h2 class="section-title">My Cybersecurity Projects</h2>
-            <div class="project-box">
-
-                <div class="inner-project-box">
-                    <h2>Ethical Hacking Project and Labs</h2>
-                    <br>
-                    <p>As a part of the Cyber Defense class I took at JMU, I completed many lab assignments and projects involving hands on ethical hacking and cyber defense. This project experience includes:</p>
-                    <ul>
-                        <li>Setup penetration testing lab environment with virtual machines, performed vulnerability analysis, and created after-action pen test report document</li>
-                        <li>Hands-on laboratory experience using Kali Linux performing vulnerability analysis, password auditing, SQL Injection, network reconnaissance and port scanning, enumeration and mapping, cross-site scripting, and firewall and Snort IDS/IPS configuration</li>
-                    </ul>
-                </div>
-
-                <div class="inner-project-box">
-                    <h2>Networking Packet Analyzer</h2>
-                    <br>
-                    <p>In this project, I implemented a simple packet analyzer program that deconstructs a PCAP file into a human readable packet summary. This project was developed for my Advanced Computer Networking (CS-455) class at JMU.</p>
-                    <br>
-                    <p>This project demonstrates proficiency in:</p>
-                    <ul>
-                        <li>C Programming Language</li>
-                        <li>Computer Networking</li>
-                        <li>Systems Application Development</li>
-                    </ul>
-                    <br>
-                    <a href="https://github.com/stephenender02/Simple-Packet-Analyzer" target="_blank" class="button home__button">View Networking Packet Analyzer on GitHub</a>
-                </div>
-
-                <div class="inner-project-box">
-                    <h2>File Encryption Send/Receive</h2>
-                    <br>
-                    <p>In this project, I developed a program that simulates a secure message send and receive process. In the first step, an asymmetric key exchange using the Needham-Schroeder Key-Exchange model occurs through a "Key Distribution Center" process. These symmetric keys are used by Amal (the sender process) and Basim (the receiver process). Using AES-256 in Cipher Block Chaining mode with a 128-bit Initialization Vector, Amal securely encrypts the file to be sent. The file is sent to Basim via pipe, where it is received and decrypted. This was a team project that was developed for my Information Security (CS-457) class at JMU.</p>
-                    <br>
-                    <p>This project demonstrates proficiency in:</p>
-                    <ul>
-                        <li>C Programming Language</li>
-                        <li>OpenSSL Cryptography Library</li>
-                        <li>Confidentiality (Symmetric/Asymmetric key encryption and decryption) and Integrity (Digital Signature)</li>
-                        <li>Process creation and inter-process communication</li>
-                        <li>Systems Application Development</li>
-                    </ul>
-                    <br>
-                    <a href="https://github.com/stephenender02/FileEncryptionSendReceive" target="_blank" class="button home__button">View File Encryption Send/Receive on GitHub</a>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!------------------------------- App Dev Projects ------------------------------>
-        <section class="projects section" id="appprojects">
-            <h2 class="section-title">My Application Development Projects</h2>
-            <div class="project-box">
-
-                <div class="inner-project-box">
-                    <h2>SARR Tournament Manager</h2>
-                    <br>
-                    <p><em>This project is currently in development!</em></p>
-                    <br>
-                    <p>As a part of the Application Development class I took at JMU, my team and I designed and developed a client side tournament manager application that allows users to create athletic tournaments, manage teams, games, and venues, and get up to date weather and bracket information.</p>
-                    <br>
-                    <p>This project was developed using JavaScript, HTML, and a mix of Bootstrap and custom CSS. In the development of this project, I primarily worked on:</p>
-                    <ul>
-                        <li>Retrieval of tournament data from browser local storage and display of detailed information to users</li>
-                        <li>Display of tournament bracket with Bracketry.js library</li>
-                        <li>Integration with Google Maps API to display location of game venues to users</li>
-                    </ul>
-                </div>
-
-                <div class="inner-project-box">
-                    <h2>JM'Uvies</h2>
-                    <img src="images/jmuvies.png" alt="" width="500rem">
-                    <br>
-                    <p>As a part of the Software Engineering class I took at JMU, my team and I were tasked to create a movie review based social media network. Using HTML, CSS, and the p5.js JavaScript library, our team created this social media network over 6 weeks using the SCRUM framework.</p>
-                    <br>
-                    <p>In the development of this project, I primarily worked on:</p>
-                    <ul>
-                        <li>Movie review post creation</li>
-                        <li>Storage and retrieval of post information using a lightweight key/value storage solution built with Heroku</li>
-                        <li>Retrieval of up to date movie descriptions and ratings using The Movie Database (TMDB) API</li>
-                    </ul>
-                </div>
-
-                <div class="inner-project-box">
-                    <h2>Phi Mu Alpha Website</h2>
-                    <img src="images/pma_website.png" alt="" width="500rem">
-                    <br>
-                    <p>Founded in 1969, the Gamma Alpha Chapter of Phi Mu Alpha Sinfonia is a national music fraternity whose object is the development of the best and truest fraternal spirit; the mutual welfare and brotherhood of musical students; the advancement of music in America and a loyalty to the Alma Mater.</p>
-                    <br>
-                    <p>I developed the website for the Gamma Alpha Chapter of Phi Mu Alpha Sinfonia. This website provides general information about the fraternity, pictures from latest events, and a directory of current collegiate members of the Gamma Alpha Chapter.</p>
-                    <br>
-                    <p>In this project, I developed the front-end of the website. Since this is a simple website project, there is no database being used, though I am currently storing brother directory information in a Google Sheet where up to date information is fetched.</p>
-                    <br>
-                    <a href="https://stephenender02.github.io/PMA-GammaAlpha/index.html" target="_blank" class="button home__button">View the Gamma Alpha Chapter website</a>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!---------------------------------- Leadership --------------------------->
-        <section class="leadership section" id="leadership">
-            <h2 class="section-title">Leadership and Community Involvement</h2>
-            <div class="leadership_box">
-
-                <h2>Secretary</h2>
-                <h3>Phi Mu Alpha Sinfonia, Gamma Alpha Chapter</h3>
-                <br>
-                <div class="pma_box">
-                    <img src="/images/pma_sec.jpg" alt="" width="400rem">
-                    <p>As the secretary of the Gamma Alpha Chapter of Phi Mu Alpha Sinfonia, I manage the organization of chapter resources, record minutes for meetings, and facilitate communication between our chapter and province leadership.</p>
-                </div>
-                <br>
-                <br>
-
-                <h2>Marching Royal Dukes</h2>
-                <br>
-                <div class="jmu_mrd_box">
-                    <img src="/images/mrd.jpg" alt="" width="400rem">
-                    <p>From 2021-2023, I marched the alto saxophone in the JMU Marching Royal Dukes! In 2023 I had the opportunity to play at the Vatican for the Pope in the Rome New Year's Day Parade!</p>
-                </div>
-                <br>
-                <br>
-
-                <h2>JMU Pep Band</h2>
-                <br>
-                <div class="jmu_mrd_box">
-                    <img src="/images/pep.JPG" alt="" width="400rem">
-                    <p>From 2021-2025, I played the alto saxophone in the JMU Pep Band! I have traveled with the Pep Band to Sun Belt Conference Championships and the NCAA tournament!</p>
-                </div>
-                <br>
-                <br>
-
-            </div>
-
-        </section>
-
-    </main>
-    <!------------------------ Body ends from here ----------------------->
-
-    <!------------------------ Footer starts from here ----------------------->
-    <footer class="footer section">
-        <div class="footer__container bd-grid">
-            <h1 class="footer__title">Stephen Ender</h1>
-            <p class="footer-description" style="color: #e8f9ff;">
-                Copyright © Stephen Ender 2025
-            </p>
+  <script src="src/scripts/loadHeaderFooter.js"></script>
+  <main>
+    <article id="profile">
+      <div id="profileImage">
+        <div id="profileImagePic">
+          <img src="src/images/profilePic2.jpg" alt="Stephen Ender Profile Picture">
         </div>
-    </footer>
-    <!------------------------ Footer ends from here ----------------------->
+      </div>
+      <div id="profileInfoBox">
+        <p id="profileName">Stephen Ender</p>
+        <p id="profileJob">Software Development and Cybersecurity</p>
+      </div>
+      <div id="profSocial">
+        <a href="https://www.linkedin.com/in/stephen-ender/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/stephenender02" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+      </div>
+      <div id="profResume">
+        <a id="downloadResume" class="downloadButton" href="src/files/StephenEnder2025.pdf" download>Download Resume</a>
+      </div>
+    </article>
 
-    <!------------------------- Javascript file ---------------------------->
-    <script src="script.js"></script>
+    <article id="aboutMe">
+      <h1 class="articTitle">About Me</h1>
+      <p>Hi, I'm Stephen! I am a computer scientist particularly interested in the fields of cybersecurity, software development, and computer networking. I studied at James Madison University, where I've received my Bachelor of Science in Computer Science. When I'm not at the keyboard, I enjoy playing the saxophone and the guitar, watching the Dukes play football and basketball, and trying to cook new recipes in the kitchen! </p>
+    </article>
+
+    <article id="experience">
+      <h1 class="articTitle">My Experience</h1>
+      <div id="experienceGrid">
+        <div id="fastCard" class="expCard">
+          <img src="src/images/fastLogo.jpg" alt="FAST Enterprises Logo">
+          <div class="expCardTitle">
+            <p>Implementation Consultent</p>
+            <p>FAST Enterprises</p>
+          </div>
+          <div class="expCardDet">
+            <p>As an Implementation Consultant at FAST Enterprises, I collaborate with government agencies to modernize legacy systems and improve efficiency. I work closely with subject matter experts to design and implement solutions that align with business requirements and regulatory needs. In this role I:</p>
+            <br>
+            <ul>
+              <li>Consult with government professionals to analyze business processes and design optimal software solutions</li>
+              <li>Configure and customize the FastCore COTS software to meet the unique operational needs of each agency</li>
+              <li>Develop backend functionality using C#, including system integrations, batch processes, and data transformations</li>
+              <li>Write and optimize complex PostgreSQL queries</li>
+              <li>Support implementation through iterative testing, rollout, and ongoing production support to ensure smooth system adoption</li>
+            </ul>
+          </div>
+          <p>September 2025 - Present</p>
+        </div>
+        <div id="sluhnCard" class="expCard">
+          <img src="src/images/sluhnLogo.jpg" alt="St. Luke's University Health Network Logo">
+          <div class="expCardTitle">
+            <p>Information Technology Intern</p>
+            <p>St. Luke's University Health Network</p>
+          </div>
+          <div class="expCardDet">
+            <p>During my internships with St. Luke's, I responded to cyber security incidents, planned, executed, and presented results of phishing attack simulation training, prepared Disaster Recovery after action reports, and investigated threats by writing KQL queries with Microsoft Defender XDR Advanced Hunting</p>
+          </div>
+          <p>May 2022 - August 2022; June 2024 - August 2024</p>
+        </div>
+      </div>
+    </article>
+
+    <article id="education">
+      <h1 class="articTitle">My Education</h1>
+      <h2>Bachelor of Science, James Madison University</h2>
+      <div id="educationGrid">
+        <div id="eduPicArea">
+          <img src="src/images/jmuFall.jpg" alt="James Madison University Campus">
+        </div>
+        <div id="eduDetailsArea">
+          <p>I graduated from James Madison University in May of 2025. Studying with a <strong>major in Computer Science</strong> and a <strong>minor in Computational Analytics</strong>, I have taken electives in Cyber Defense, Cryptography, Information Security, Computer Networking, and Application Development. Through the JMU Department of Computer Science, I have recieved the <em>NSTISSI No. 4011 Certification for Information Systems Security Professionals</em>.</p>
+        </div>
+        <div id="communityInvolvementArea">
+          <h2>Leadership and Community Involvement</h2>
+          <p><em>Hover over the cards for more information!</em></p>
+          <div id="communityInvolvementCards">
+            <div id="pmaCard" class="skillCard">
+              <div class="skillCardInner">
+                <div class="skillCardFront">
+                  <img src="src/images/pma.jpg" alt="Photo of Stephen Ender with Brothers of PMA">
+                  <div class="cardContainer">
+                    <p>Phi Mu Alpha Sinfonia</p>
+                  </div>
+                </div>
+                <div class="skillCardBack">
+                  <h3>PMA</h3>
+                  <p>In the Fall of 2022, I became a brother of the music fraternity Phi Mu Alpha Sinfonia (PMA). In PMA, I was the secretary for the Gamma Alpha chapter for the 2024-2025 school year. In this role, I managed the organization of chapter resources, recorded minutes for meetings, and facilitated communication between our chapter and province leadership.</p>
+                </div>
+              </div>
+            </div>
+            <div id="mrdCard" class="skillCard">
+              <div class="skillCardInner">
+                <div class="skillCardFront">
+                  <img src="src/images/mrd.jpg" alt="Photo of Stephen Ender marching with a saxophone">
+                  <div class="cardContainer">
+                    <p>Marching Royal Dukes</p>
+                  </div>
+                </div>
+                <div class="skillCardBack">
+                  <h3>MRDs</h3>
+                  <p>From 2021-2023, I marched the alto saxophone in the JMU Marching Royal Dukes! In 2023 I had the opportunity to play at the Vatican for the Pope in the Rome New Year's Day Parade!</p>
+                </div>
+              </div>
+            </div>
+            <div id="pepCard" class="skillCard">
+              <div class="skillCardInner">
+                <div class="skillCardFront">
+                  <img src="src/images/pep.JPG" alt="Photo of Stephen Ender with JMU Pep Band at Sun Belt Basketball Tournament">
+                  <div class="cardContainer">
+                    <p>JMU Pep Band</p>
+                  </div>
+                </div>
+                <div class="skillCardBack">
+                  <h3>JMU Pep Band</h3>
+                  <p>From 2021-2025, I played the alto saxophone in the JMU Pep Band! I have traveled with the Pep Band to Sun Belt Conference Championships and the NCAA tournament!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </main>
 </body>
-
 </html>
