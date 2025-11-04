@@ -415,7 +415,7 @@ article {
   }
 }
 
-@media screen and (max-width: 398px) {
+@media screen and (max-width: 412px) {
   #profile {
     grid-template:
       "profPic"
@@ -577,6 +577,12 @@ article {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   padding: 20px 16px;
+}
+
+@media screen and (max-width: 450px) {
+    .expCard {
+    width: 17em;
+  }
 }
 
 .expCardTitle {
@@ -832,6 +838,12 @@ article {
 #jmuCertCard {grid-area: jmuCert;}
 #secPlusCard {grid-area: secPlus;}
 #networkPlusCard {grid-area: netPlus;}
+
+@media screen and (max-width: 420px) {
+  .certCard {
+    width: 17em;
+  }
+}
 
 .certCard img {
   width: 10em;
