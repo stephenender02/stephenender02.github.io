@@ -377,7 +377,8 @@ article {
   align-items: center;
 }
 
-.downloadButton {
+.downloadButtonDiv {
+  text-align: center;
   padding: 0.5em 1em;
   border: solid;
   border-color: var(--primary);
@@ -391,7 +392,12 @@ article {
   transition: 0.3s;
 }
 
-.downloadButton:hover {
+.downloadButton {
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+.downloadButtonDiv:hover {
   border-color: var(--primary-dark);
   background-color: var(--primary-dark);
 }
@@ -563,6 +569,7 @@ article {
 }
 
 .expCard {
+  width: 17em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -770,8 +777,7 @@ article {
       "pythonCy wireshark"
       "kql mxdr"
       "ssl phish"
-      "phish snort"
-      "kLinux null";
+      "snort kLinux";
     row-gap: 2em;
   }
 }
@@ -824,6 +830,10 @@ article {
   text-align: center;
 }
 
+.certCard {
+  width: 17em;
+}
+
 #jmuCertCard {grid-area: jmuCert;}
 #secPlusCard {grid-area: secPlus;}
 #networkPlusCard {grid-area: netPlus;}
@@ -832,7 +842,7 @@ article {
   width: 10em;
 }
 
-.certCard img, .certCard h2, .certCard p, .downloadButtonDiv, .certCard ul {
+.certCard img, .certCard h2, .certCard p, .downloadButton, .certCard ul {
   margin: 15px;
 }
 
